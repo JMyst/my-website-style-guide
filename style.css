@@ -3,6 +3,51 @@
     border: blue solid 0px;
 }
 
+@font-face {
+    font-family: 'Arvo';
+    src: url('fonts/Arvo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Arvo';
+    font-weight: bold;
+    src: url('fonts/Arvo-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Arvo';
+    font-style: italic;
+    src: url('fonts/Arvo-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Museo-Sans';
+    src: url('fonts/MuseoSans-300.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Museo-Sans';
+    font-style: bold;
+    src: url('fonts/MuseoSans-700.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Fira-Sans';
+    src: url('fonts/FiraSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Fira-Sans';
+    font-weight: bold;
+    src: url('fonts/FiraSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Fira-Sans';
+    font-style: italic;
+    src: url('fonts/FiraSans-Italic.ttf') format('truetype');
+}
+
 body {
     margin: 0 10%;
     background-color: rgb(255, 250, 244);
@@ -50,12 +95,18 @@ section {
     padding: 5px;
     margin: 2px 0;
     font-size: large;
-    font-weight: 600;
-    text-align: center;
 }
 
-#font-sample {
-    background-color: #bfaf85;
+.font-arvo {
+    font-family: 'Arvo';
+}
+
+.font-museo-sans {
+    font-family: 'Museo-Sans';
+}
+
+.font-fira-sans {
+    font-family: 'Fira-Sans';
 }
 
 #font-sample {
@@ -68,4 +119,16 @@ section {
 
 #font-sample {
     background-color: #d6c5ba;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
 }
