@@ -1,6 +1,7 @@
 * {
     font-family: consolas;
     border: blue solid 0px;
+    margin: 0;
 }
 
 @font-face {
@@ -67,7 +68,7 @@ section {
     display: inline-block;
     width: 30%;
     padding: 5px;
-    margin: 2px 0;
+    margin: 4px;
     font-size: large;
     font-weight: 600;
     text-align: center;
@@ -93,7 +94,7 @@ section {
     display: inline-block;
     width: 30%;
     padding: 5px;
-    margin: 2px 0;
+    margin: 4px 0;
     font-size: large;
 }
 
@@ -132,3 +133,12 @@ section {
 .underline {
     text-decoration: underline;
 }
+
+.text-style-panel {
+    padding: 5px;
+    margin: 2px 0;
+}
+
+p { margin: 5px 0; }
+
+h1 { font-size: 2em;}
