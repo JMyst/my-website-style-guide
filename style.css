@@ -4,7 +4,6 @@
 }
 
 body {
-    text-align: center;
     margin: 0 10%;
     background-color: rgb(255, 250, 244);
 }
@@ -15,19 +14,18 @@ section {
 }
 
 .container {
-    background-color: rgb(175, 145, 121);
-    margin: 0 auto;
-    text-align: center;
+    background-color: rgba(175, 145, 121, 0.3);
+    padding: 10px;
 }
 
 .colour-panel {
     display: inline-block;
     width: 30%;
-    min-width: 220px;
     padding: 5px;
-    margin: 10px;
-    font-size: x-large;
+    margin: 2px 0;
+    font-size: large;
     font-weight: 600;
+    text-align: center;
 }
 
 #colour-brown {
@@ -48,12 +46,12 @@ section {
 
 .font-panel {
     display: inline-block;
-    width: 23%;
-    min-width: 170px;
+    width: 30%;
     padding: 5px;
-    margin: 5px 0;
-    font-size: x-large;
+    margin: 2px 0;
+    font-size: large;
     font-weight: 600;
+    text-align: center;
 }
 
 #font-sample {
